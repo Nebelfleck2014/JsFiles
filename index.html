@@ -3,26 +3,27 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Игра угадай число</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Number guessing game</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <h1>Игра угадай число</h1>
+      <h1>Number guessing game</h1>
 
-    <p>Мы загадали случайное число от 1 до 100. Попробуй угадать его, есть 10 попыток. А мы будем подсказывать тебе</p>
+      <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or less. We'll tell you if your guess was too high or too low.</p>
 
-    <div class="form">
-      <label for="guessField">Введи число: </label><input type="text" id="guessField" class="guessField">
-      <input type="submit" value="Submit guess" class="guessSubmit">
-    </div>
+<div class="form">
+  <label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="guessField">
+  <input type="submit" value="Submit guess" class="guessSubmit">
+</div>
 
-    <div class="resultParas">
-      <p class="guesses"></p>
-      <p class="lastResult"></p>
-      <p class="lowOrHi"></p>
-    </div>
+<div class="resultParas">
+  <p class="guesses"></p>
+  <p class="lastResult"></p>
+  <p class="lowOrHi"></p>
+</div>
 
-    <script src="js/main.js"></script>
-  </body>
+</body>
+
+<script src="js/main.js"></script>
 </html>
